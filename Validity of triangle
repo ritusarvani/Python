@@ -1,0 +1,6 @@
+print("Enter the three sides of triangle")
+a,b,c = int(input()),int(input()),int(input())
+if (a+b>c and b+c>a and c+a>b):
+    print("Valid triangle")
+else:
+    print("Invalid triangle")
