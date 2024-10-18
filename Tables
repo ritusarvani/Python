@@ -1,0 +1,11 @@
+a = int(input())
+b = int(input("Enter the range "))
+for i in range(b+1):
+    print(a,'x',i,'=',a*i)
+
+a = int(input())
+b = int(input("Enter the range "))
+i = 0
+while i<=b:
+    print(a,'x',i,'=',a*i)
+    i += 1
