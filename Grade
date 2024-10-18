@@ -1,0 +1,14 @@
+g = int(input())
+print("Grade ")
+if g>=90:
+    print("A")
+elif g>=80:
+    print("B")
+elif g>=70:
+    print("C")
+elif g>=60:
+    print("D")
+elif g>=50:
+    print("E")
+else:
+    print("F")
