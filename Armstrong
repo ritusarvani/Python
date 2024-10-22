@@ -1,0 +1,12 @@
+n = int(input("Enter n"))
+temp = n
+sum = 0
+while temp>0:
+    rem = temp%10
+    cube = rem**3
+    sum += cube
+    temp = temp//10
+if(n==sum):
+    print("Armstrong number")
+else:
+    print("Not an Armstrong number")
